@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #FFB3C6;
+  --color-foreground: #0A2619;
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  /* A subtle dot grid for a playful paper texture */
+  background-image: radial-gradient(#F582A0 2px, transparent 2px);
+  background-size: 32px 32px;
+}
